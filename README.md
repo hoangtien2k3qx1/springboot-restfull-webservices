@@ -42,6 +42,19 @@ info.app.version=1.0.0
 - exception
 - Application
 
+## Tables database MySql
+|Field|Type|Null|Key|Default|Extra|
+|-----|----|----|---|-------|-----|
+|id|bigint|NO|PRI|NULL||
+|create_by|varchar(255)|YES||NULL||
+|create_date|datetime(6)|YES||NULL||
+|last_midified_date|datetime(6)|YES||NULL||
+|last_modified_by|varchar(255)|YES||NULL||
+|email_address|varchar(255)|NO||NULL||
+|first_name|varchar(255)|NO||NULL||
+|last_name|varchar(255)|NO||NULL||
+
+
 ## POST User: http://localhost:8080/api/users
 
 ![POST User](https://github.com/hoangtien2k3qx1/springboot-restfull-webservices/assets/122768076/c1091a07-78e3-4851-8320-546ef7667418)
