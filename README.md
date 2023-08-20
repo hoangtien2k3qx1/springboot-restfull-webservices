@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# springboot-restfull-webservices
-=======
 # SpringBoot-RestFull-WebServices
 
 ## Tools and Technologies Used:
